@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 3</title>
+    <style media="screen" type="text/css">
+        html,
+        body {
+            margin: 5;
+            padding: 0;
+        }
+
+        .flag-1{
+
+            margin:10px;
+            height:100px;
+            width: 300px;
+            background-color: yellow;
+            border-top: 50px solid;
+            border-bottom: 50px solid;
+            border-color: red;
+        }
+        /* flag-2 */
+        .flag-2{
+            margin:10px;
+            height:200px;
+            width: 300px;
+            background-color: red;
+            border-color: red;
+            box-sizing: border-box;
+        }
+
+
+        .line-row{
+            float: left;
+            width: 100%;
+            z-index: 2;
+            margin-top: 30%;
+            background-color: #fff;
+            height: 15px;
+        }
+
+        .line-vertical{
+            width: 15px;
+            height:100%;
+            background-color: #fff;
+            z-index: 3;
+            margin-left: 30%;
+        }
+        /* flag-3 */
+        .flag-3{
+            margin:10px;
+            height:200px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        .f3__column-1{
+            background-color: red;
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+        .f3__column-2{
+            background-color: black;
+            width: 80%;
+            height: 100%;
+            float: left;
+        }
+        .f3__row-1{
+            background-color: green;
+            width: 100%;
+            height: 33.333333%;
+        }
+        .f3__row-2{
+            background-color: white;
+            width: 100%;
+            height: 33.333333%;
+        }
+
+
+        /* flag 4 */
+        .flag-4{
+            margin:10px;
+            height:200px;
+            width: 300px;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            background-color:white;
+        }
+
+        .circle{
+            border-radius: 50%;
+            background-color: red;
+            height: 80px;
+            width: 80px;
+            margin: 50px auto auto auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flag-1"></div>
+    <div class="flag-2">
+        <div class="line line-row"></div>
+        <div class="line line-vertical"></div>
+    </div>
+    <div class="flag-3">
+        <div class="f3__column-1"></div>
+        <div class="f3__column-2">
+            <div class="f3__row-1"></div>
+            <div class="f3__row-2"></div>
+        </div>
+    </div>
+    <div class="flag-4">
+        <div class="circle"></div>
+    </div>
+</body>
+
+</html>
